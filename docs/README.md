@@ -51,12 +51,9 @@
 - Now boot into your device.
 - *The first boot will take a while*.
 
-## Notes
+## Notesh
 - The default password is `1234`.
-- Not every app will work as they might need aditional packages (eg: Telegram Desktop needs qtwayland5 to be installed to run). Google or [@Droidian](https://t.me/DroidianLinux) is your best friend in this case.
-- Automatic app scaling [per app](https://forums.puri.sm/t/librem-5-scale-to-fit/11399/3) or globally: `gsettings set sm.puri.phoc scale-to-fit true`.
-- [Tweaks](https://wiki.mobian-project.org/doku.php?id=tweaks).
-- [Theming](https://wiki.mobian-project.org/doku.php?id=themes).
+- Xiaomi has not updated their kernel source tree and as a result some models of 9A and 9C have non functional display panels without kernel.
 - **Droidian GSIs are experimental! Bugs and missing features are expected.**
 
 ## Bugs
