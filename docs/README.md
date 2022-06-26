@@ -15,14 +15,14 @@
 | Data connection               	|  +- 	| RTC time                         	|  + 	| Pin unlock           	|  + 	|
 | Incoming, outgoing calls      	|  + 	| Shutdown / Reboot                	|  + 	| ADB access          	|  - 	|
 | MMS in, out                   	|  ? 	| Wireless External monitor        	|  - 	| MTP access           	|  - 	|
-| SMS in, out                    	|  + 	| Bluetooth                        	|  +- 	| WiFi			|  -	|
+| SMS in, out                    	|  + 	| Bluetooth                        	|  +- 	| WiFi			|  +	|
 | Change audio routings          	|  +-	| Flight mode                      	|  + 	| Hotspot		|  -	|
 | Voice in calls                	|  + 	|
 
 - **+** *Confirmed working.*
 - **+-** *Working to some extent but with issues.*
 - **-** *Not Working.*
-
+- **?** *Not tested.*
 
 ## Requirements
 
@@ -53,15 +53,23 @@
 
 ## Notes
 - The default password is `1234`.
-- Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
-- RIL gets broken after switching airplane mode or modem off/on.
-- Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
-- Mobile data quick toggle doesn't work.
 - Not every app will work as they might need aditional packages (eg: Telegram Desktop needs qtwayland5 to be installed to run). Google or [@Droidian](https://t.me/DroidianLinux) is your best friend in this case.
 - Automatic app scaling [per app](https://forums.puri.sm/t/librem-5-scale-to-fit/11399/3) or globally: `gsettings set sm.puri.phoc scale-to-fit true`.
 - [Tweaks](https://wiki.mobian-project.org/doku.php?id=tweaks).
 - [Theming](https://wiki.mobian-project.org/doku.php?id=themes).
 - **Droidian GSIs are experimental! Bugs and missing features are expected.**
+
+## Bugs
+- Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
+- RIL gets broken after switching airplane mode or modem off/on.
+- Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
+- Mobile data quick toggle doesn't work.
+- Bluetooth can be used via the termianl using bluetoothctl command but does not work via the settings app.
+- Signal strengh is reported at 1% but Mobile data and calls work just fine.
+- Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on angelica and dandelion.
+- Changing audio to speaker in calls does not work on dandelion but works on angelica.
+- earbuds or earphones do not work on dandelion but work on angelica.
+- Dual sim functionality is currently not implemented in phosh so only one sim works at the moment.
 
 # Support
 - Device specific telegram group: [@ut_angelica](https://t.me/ut_angelica).
