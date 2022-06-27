@@ -8,7 +8,7 @@
 | Vibration                     	|  + 	| Hardware video playback          	|  + 	| Proximity          	|  - 	|
 | Flashlight                    	|  - 	| Anbox patches                    	|  + 	| Rotation            	|  + 	|
 | Photo                         	|  - 	| AppArmor patches                 	|  + 	| Touchscreen          	|  + 	|
-| Video                         	|  - 	| Battery percentage               	|  + 	| Earphones           	|  + 	|
+| Video                         	|  - 	| Battery percentage               	|  + 	| Earphones           	|  +- 	|
 | Switching between cameras     	|  - 	| Offline charging                 	|  - 	| Loudspeaker          	|  + 	|
 | Dual SIM functionality        	|  - 	| Online charging                  	|  + 	| Microphone          	|  + 	|
 | Carrier info, signal strength 	|  +- 	| SD card detection and access     	|  + 	| Volume control       	|  + 	|
