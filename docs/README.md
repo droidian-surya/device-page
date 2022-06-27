@@ -51,7 +51,7 @@
 - Now boot into your device.
 - *The first boot will take a while*.
 
-## Notesh
+## Notes
 - The default password is `1234`.
 - Xiaomi has not updated their kernel source tree and as a result some models of 9A and 9C have non functional display panels without kernel.
 - **Droidian GSIs are experimental! Bugs and missing features are expected.**
