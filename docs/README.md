@@ -61,7 +61,7 @@
 - RIL gets broken after switching airplane mode or modem off/on.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Mobile data quick toggle doesn't work.
-- Bluetooth can be used via the termianl using bluetoothctl command but does not work via the settings app.
+- Bluetooth can be used via the terminal using bluetoothctl command but does not work via the settings app.
 - Signal strengh is reported at 1% but Mobile data and calls work just fine.
 - Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on angelica and dandelion.
 - Changing audio to speaker in calls does not work on dandelion but works on angelica.
