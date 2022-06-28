@@ -4,7 +4,7 @@
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
 | Manual brightnes              	|  + 	| Battery lifetime > 24h from 100% 	|  + 	| Automatic brightness  |  - 	|
 | No reboot needed for 1 week      	|  - 	| Fingerprint reader  	                |  - 	| Waydroid		|  -	|
-| Torchlight                    	|  - 	| Boot into UI                     	|  + 	| GPS                 	|  - 	|
+| Torchlight                    	|  - 	| Boot into UI                     	|  + 	| GPS                 	|  +- 	|
 | Vibration                     	|  + 	| Hardware video playback          	|  + 	| Proximity          	|  - 	|
 | Flashlight                    	|  - 	| Anbox patches                    	|  + 	| Rotation            	|  + 	|
 | Photo                         	|  - 	| AppArmor patches                 	|  + 	| Touchscreen          	|  + 	|
@@ -61,7 +61,8 @@
 - RIL gets broken after switching airplane mode or modem off/on.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Mobile data quick toggle doesn't work.
-- Bluetooth can be used via the terminal using bluetoothctl command but does not work via the settings app.
+- Bluetooth can be used via the terminal using bluetoothctl command or using blueman **sudo apt install blueman** but does not work via the settings app.
+- GPS works partially via Epiphany (tested with open street map)
 - Signal strengh is reported at 1% but Mobile data and calls work just fine.
 - Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on angelica and dandelion.
 - Changing audio to speaker in calls does not work on dandelion but works on angelica.
