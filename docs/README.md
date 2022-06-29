@@ -32,12 +32,12 @@
 
 ## dandelion
 - Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
-- Download the adaptation for dandelion: [droidian-adaptation-dandelion.zip](https://bardia.tech/droidian/droidian-adaptation-dandelion.zip).
+- Download the adaptation package: [droidian-adaptation-garden.zip](https://bardia.tech/droidian/droidian-adaptation-garden.zip).
 - Download [boot.img](https://bardia.tech/droidian/boot-dandelion.img), [dtbo.img](https://bardia.tech/droidian/dtbo-dandelion.img), [vbmeta.img](https://bardia.tech/droidian/vbmeta-dandelion.img).
 
 ## angelica
 - Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
-- Download the adaptation for dandelion: [droidian-adaptation-angelica.zip](https://bardia.tech/droidian/droidian-adaptation-angelica.zip).
+- Download the adaptation package: [droidian-adaptation-garden.zip](https://bardia.tech/droidian/droidian-adaptation-garden.zip).
 - Download [boot.img](https://bardia.tech/droidian/boot-angelica.img), [dtbo.img](https://bardia.tech/droidian/dtbo-angelica.img), [vbmeta.img](https://bardia.tech/droidian/vbmeta-angelica.img).
 
 ## Installation
@@ -48,12 +48,13 @@
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 
 - Sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip.
+- Sideload droidian-adaptation-garden.zip
 - Now boot into your device.
-- *The first boot will take a while*.
+- *The first boot will take a while.*
 
 ## Notes
 - The default password is `1234`.
-- Xiaomi has not updated their kernel source tree and as a result some models of 9A and 9C have non functional display panels without kernel.
+- Xiaomi has not updated their kernel source tree and as a result some models of 9A and 9C have non functional display panels with our kernel.
 - **Droidian GSIs are experimental! Bugs and missing features are expected.**
 
 ## Bugs
@@ -66,8 +67,8 @@
 - Signal strengh is reported at 1% but Mobile data and calls work just fine.
 - Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on angelica and dandelion.
 - Changing audio to speaker in calls does not work on dandelion but works on angelica.
-- earbuds or earphones do not work on dandelion but work on angelica.
-- Dual sim functionality is currently not implemented in phosh so only one sim works at the moment.
+- Earbuds or earphones do not work on dandelion but work on angelica.
+- Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
 
 # Support
 - Device specific telegram group: [@ut_angelica](https://t.me/ut_angelica).
