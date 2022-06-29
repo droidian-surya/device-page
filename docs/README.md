@@ -69,7 +69,11 @@
 - Changing audio to speaker in calls does not work on dandelion but works on angelica.
 - Earbuds or earphones do not work on dandelion but work on angelica.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
+- I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
+- Please do some research if you have any concerns about features included in the products you find here before flashing it!
+- YOU are choosing to make these modifications, and if you point the finger at me for messing up your device, I will laugh at you.
 
 # Support
 - Device specific telegram group: [@ut_angelica](https://t.me/ut_angelica).
 - Droidian telegram group: [@DroidianLinux](https://t.me/DroidianLinux).
+
