@@ -67,7 +67,7 @@
 - Signal strengh is reported at 1% but Mobile data and calls work just fine.
 - Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on angelica and dandelion.
 - Changing audio to speaker in calls does not work on dandelion but works on angelica.
-- Earbuds or earphones do not work on dandelion but work on angelica.
+- Earbuds work on both devices but earphones do not work on dandelion but work on angelica.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
 - Just like bluetooth, hotspot does not work from settings either and has to be used from a GUI application (such as the default advanced network app) or from terminal.
 - I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
