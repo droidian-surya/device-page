@@ -32,8 +32,8 @@
 
 ## Surya
 - Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
-- Download the adaptation package: [droidian-adaptation-surya.zip](https://bardia.tech/surya/droidian-adaptation-surya.zip).
-- Download [boot-surya.img](https://bardia.tech/surya/boot-surya.img), [dtbo.img](https://bardia.tech/surya/dtbo-surya.img), [vbmeta.img](https://bardia.tech/surya/vbmeta-surya.img).
+- Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
+- Download [boot-surya.img](https://surya.bardia.tech/boot-surya.img), [dtbo.img](https://surya.bardia.tech/dtbo-surya.img), [vbmeta.img](https://surya.bardia.tech/vbmeta-surya.img).
 
 ## Karna
 - not yet
@@ -44,8 +44,11 @@
 - Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta-surya.img`.
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
-- Sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip.
-- Sideload droidian-adaptation-surya.zip
+- Now boot into recovery.
+- Go into sideload mode and sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip: `adb sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip`
+- Now extract adaptation-surya-script.zip on your PC/Laptop and push it to your device: `adb push adaptation-surya-script /tmp`
+- Get a shell into your device: `adb shell`
+- Change directory to /tmp and run the script: `cd /tmp/adaptation-surya-script && chmod +x install.sh && ./install.sh`
 - Now boot into your device.
 - *The first boot will take a while.*
 
@@ -63,6 +66,7 @@
 - Booting times are currently within 5-10 minutes. 
 - Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on surya.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
+- Currently the sideloadable zip file is broken and results in a very long bootloop, so to install Droidian the adaptation script must be used.
 
 ## Final notes
 - I'm not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed.
@@ -72,4 +76,3 @@
 # Support
 - Device specific telegram group: [@droidian_surya](https://t.me/droidian_surya).
 - Droidian telegram group: [@DroidianLinux](https://t.me/DroidianLinux).
-
