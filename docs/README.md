@@ -28,7 +28,7 @@
 ## Requirements
 - Android 10 firmware for your device:
   - Poco X3 NFC ( Global ): https://xiaomifirmwareupdater.com/miui/surya/stable/V12.0.9.0.QJGMIXM/
-  - Poco X3 ( India ): ?
+  - Poco X3 ( India ): https://xiaomifirmwareupdater.com/miui/surya/stable/V12.0.9.0.QJGMIXM/
 
 ## Surya
 - Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
@@ -53,7 +53,18 @@
 - *The first boot will take a while.*
 
 ## Karna installation
-- not yet
+- Flash boot.img: `fastboot flash boot boot-karna.img`.
+- Flash dtbo.img: `fastboot flash dtbo dtbo-karna.img`.
+- Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta-karna.img`.
+- Flash your favorite recovery ( TWRP Recommended ).
+- Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
+- Now boot into recovery.
+- Go into sideload mode and sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip: `adb sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip`
+- Now extract adaptation-surya-script.zip on your PC/Laptop and push it to your device: `adb push adaptation-surya-script /tmp`
+- Get a shell into your device: `adb shell`
+- Change directory to /tmp and run the script: `cd /tmp/adaptation-surya-script && chmod +x install.sh && ./install.sh`
+- Now boot into your device.
+- *The first boot will take a while.*
 
 ## Notes
 - The default password is `1234`.
