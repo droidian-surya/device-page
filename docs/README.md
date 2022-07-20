@@ -4,12 +4,12 @@
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
 | Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅ 	|
 | No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
-| Torchlight                    	| ✖️ ✖️ 	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
+| Torchlight                    	| ✅✖️ 	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
-| Flashlight                    	| ✖️ ✖️ 	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
-| Photo                         	| ✖️ ✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
-| Video                         	| ✖️ ✖️ 	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
-| Switching between cameras     	| ✖️ ✖️ 	| Offline charging                 	|  ❔	| Loudspeaker          	|  ✖️ 	|
+| Flashlight                    	| ✅✖️ 	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
+| Photo                         	| ✅✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
+| Video                         	| ✅✖️ 	| Battery percentage               	|  ✅ 	| Earphones           	|  ✅	|
+| Switching between cameras     	| ✅✖️ 	| Offline charging                 	|  ❔	| Loudspeaker          	|  ✖️ 	|
 | Dual SIM functionality        	| ✖️ ✖️  	| Online charging                  	|  ✅ 	| Microphone          	|  ✖️ 	|
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
@@ -75,6 +75,7 @@
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Booting times are currently within 5-10 minutes. 
+- Anything related to camera only works inside Waydroid.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
 - Currently the sideloadable zip file is broken and results in a very long bootloop, so to install Droidian the adaptation script must be used.
 
