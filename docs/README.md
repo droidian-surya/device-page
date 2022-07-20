@@ -33,10 +33,12 @@
 ## Surya
 - Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
 - Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
-- Download [boot-surya.img](https://surya.bardia.tech/boot-surya.img), [dtbo.img](https://surya.bardia.tech/dtbo-surya.img), [vbmeta.img](https://surya.bardia.tech/vbmeta-surya.img).
+- Download [boot-surya.img](https://surya.bardia.tech/boot-surya.img), [dtbo-surya.img](https://surya.bardia.tech/dtbo-surya.img), [vbmeta-surya.img](https://surya.bardia.tech/vbmeta-surya.img).
 
 ## Karna
-- not yet
+- Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
+- Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
+- Download [boot-karna.img](https://surya.bardia.tech/boot-karna.img), [dtbo-karna.img](https://surya.bardia.tech/dtbo-karna.img), [vbmeta-karna.img](https://surya.bardia.tech/vbmeta-karna.img).
 
 ## Surya istallation
 - Flash boot.img: `fastboot flash boot boot-surya.img`.
