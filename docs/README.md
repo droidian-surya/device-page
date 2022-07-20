@@ -3,7 +3,7 @@
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
 | Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅ 	|
-| No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✖️	|
+| No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
 | Torchlight                    	| ✖️ ✖️ 	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	| ✖️ ✖️ 	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
@@ -75,7 +75,6 @@
 - Mobile data needs an APN to be set up from Settings -> Mobile -> Acess Point Names.
 - Mobile data might stop working after making or recieving phone calls. Toggle Mobile Data from the settins off/on.
 - Booting times are currently within 5-10 minutes. 
-- Anything related to cameras do not work it is a global issue across all devices, it does however work in Waydroid which is currently not available on surya.
 - Dual SIM functionality is currently not implemented in Phosh so only one SIM works at the moment.
 - Currently the sideloadable zip file is broken and results in a very long bootloop, so to install Droidian the adaptation script must be used.
 
