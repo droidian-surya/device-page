@@ -3,7 +3,7 @@
 |                               	|    	|                                  	|    	|                      	|   	|
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
 | Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅ 	|
-| No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️ 	| Waydroid		|  ✖️	|
+| No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✖️	|
 | Torchlight                    	| ✖️ ✖️ 	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	| ✖️ ✖️ 	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
@@ -14,9 +14,9 @@
 | Carrier info, signal strength 	|  ✅ 	| SD card detection and access     	|  ✅ 	| Volume control       	|  ✅ 	|
 | Data connection               	|  ✅ 	| RTC time                         	|  ✅ 	| Pin unlock           	|  ✅ 	|
 | Incoming, outgoing calls      	|  ✅ 	| Shutdown / Reboot                	|  ✅ 	| ADB access          	|  ✖️✖️  	|
-| MMS in, out                   	|  ❔ 	| Wireless External monitor        	|  ✅✖️ 	| MTP access           	|  ✖️✖️  	|
+| MMS in, out                   	|  ❔ 	| Wireless External monitor        	|  ✖️✖️	| MTP access           	|  ✖️✖️  	|
 | SMS in, out                    	|  ✅ 	| Bluetooth                        	|  ✅ 	| WiFi			|  ✅	|
-| Change audio routings          	|  ❔	| Flight mode                      	|  ✅ 	| Hotspot		|  ❔	|
+| Change audio routings          	|  ❔	| Flight mode                      	|  ✅ 	| Hotspot		|  ✅	|
 | Voice in calls                	|  ❔ 	|
 
 - **✅** *Confirmed working.*
