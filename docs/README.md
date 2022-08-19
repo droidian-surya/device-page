@@ -31,12 +31,12 @@
   - Poco X3 ( India ): https://xiaomifirmwareupdater.com/miui/surya/stable/V12.0.9.0.QJGMIXM/
 
 ## Surya
-- Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
+- Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 - Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
 - Download [boot-surya.img](https://surya.bardia.tech/boot-surya.img), [dtbo-surya.img](https://surya.bardia.tech/dtbo-surya.img), [vbmeta-surya.img](https://surya.bardia.tech/vbmeta-surya.img).
 
 ## Karna
-- Download the latest rootfs:  [droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip](https://github.com/droidian-images/rootfs-api29gsi-all/releases).
+- Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 - Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
 - Download [boot-karna.img](https://surya.bardia.tech/boot-karna.img), [dtbo-karna.img](https://surya.bardia.tech/dtbo-karna.img), [vbmeta-karna.img](https://surya.bardia.tech/vbmeta-karna.img).
 
@@ -47,7 +47,7 @@
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
-- Go into sideload mode and sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip: `adb sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip`
+- Go into sideload mode and sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip: `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip`
 - Now extract adaptation-surya-script.zip on your PC/Laptop and push it to your device: `adb push adaptation-surya-script /tmp`
 - Get a shell into your device: `adb shell`
 - Change directory to /tmp and run the script: `cd /tmp/adaptation-surya-script && chmod +x install.sh && ./install.sh`
@@ -61,7 +61,7 @@
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
-- Go into sideload mode and sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip: `adb sideload droidian-rootfs-api29gsi-arm64-xxxxxxxx.zip`
+- Go into sideload mode and sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip: `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip`
 - Now extract adaptation-surya-script.zip on your PC/Laptop and push it to your device: `adb push adaptation-surya-script /tmp`
 - Get a shell into your device: `adb shell`
 - Change directory to /tmp and run the script: `cd /tmp/adaptation-surya-script && chmod +x install.sh && ./install.sh`
