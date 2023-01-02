@@ -4,7 +4,7 @@
 |-------------------------------	|----	|----------------------------------	|----	|----------------------	|---	|
 | Manual brightnes              	|  ✅ 	| Battery lifetime > 24h from 100% 	|  ✅ 	| Automatic brightness  |  ✅ 	|
 | No reboot needed for 1 week      	|  ❔	| Fingerprint reader  	                |  ✖️✖️   | Waydroid		|  ✅	|
-| Torchlight                    	| ✅✖️ 	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
+| Torchlight                    	|  ✅	| Boot into UI                     	|  ✅ 	| GPS                 	|  ✅ 	|
 | Vibration                     	|  ✅ 	| Hardware video playback          	|  ✅ 	| Proximity          	|  ✅ 	|
 | Flashlight                    	| ✅✖️ 	| Anbox patches                    	|  ✅ 	| Rotation            	|  ✅ 	|
 | Photo                         	| ✅✖️ 	| AppArmor patches                 	|  ✅ 	| Touchscreen          	|  ✅ 	|
@@ -32,18 +32,18 @@
 
 ## Surya
 - Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
-- Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
-- Download [boot-surya.img](https://surya.bardia.tech/boot-surya.img), [dtbo-surya.img](https://surya.bardia.tech/dtbo-surya.img), [vbmeta-surya.img](https://surya.bardia.tech/vbmeta-surya.img).
+- Download the adaptation script: [adaptation-surya-script.zip](https://github.com/droidian-surya/adaptation-surya-script/releases/download/adaptation/adaptation-surya-script.zip).
+- Download [boot.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/boot.img), [dtbo.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/dtbo.img), [vbmeta.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/vbmeta.img).
 
 ## Karna
 - Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
-- Download the adaptation script: [adaptation-surya-script.zip](https://surya.bardia.tech/adaptation-surya-script.zip).
-- Download [boot-karna.img](https://surya.bardia.tech/boot-karna.img), [dtbo-karna.img](https://surya.bardia.tech/dtbo-karna.img), [vbmeta-karna.img](https://surya.bardia.tech/vbmeta-karna.img).
+- Download the adaptation script: [adaptation-surya-script.zip](https://github.com/droidian-surya/adaptation-surya-script/releases/download/adaptation/adaptation-surya-script.zip).
+- Download [boot.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/boot.img), [dtbo.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/dtbo.img), [vbmeta.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/vbmeta.img).
 
 ## Surya istallation
-- Flash boot.img: `fastboot flash boot boot-surya.img`.
-- Flash dtbo.img: `fastboot flash dtbo dtbo-surya.img`.
-- Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta-surya.img`.
+- Flash boot.img: `fastboot flash boot boot.img`.
+- Flash dtbo.img: `fastboot flash dtbo dtbo.img`.
+- Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`.
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
@@ -55,9 +55,9 @@
 - *The first boot will take a while.*
 
 ## Karna installation
-- Flash boot.img: `fastboot flash boot boot-karna.img`.
-- Flash dtbo.img: `fastboot flash dtbo dtbo-karna.img`.
-- Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta-karna.img`.
+- Flash boot.img: `fastboot flash boot boot.img`.
+- Flash dtbo.img: `fastboot flash dtbo dtbo.img`.
+- Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`.
 - Flash your favorite recovery ( TWRP Recommended ).
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
