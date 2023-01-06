@@ -34,17 +34,19 @@
 - Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 - Download the adaptation script: [adaptation-surya-script.zip](https://github.com/droidian-surya/adaptation-surya-script/releases/download/adaptation/adaptation-surya-script.zip).
 - Download [boot.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/boot.img), [dtbo.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/dtbo.img), [vbmeta.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/vbmeta.img).
+- Download [twrp.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/twrp.img).
 
 ## Karna
 - Download the latest rootfs:  [droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip](https://github.com/droidian-images/droidian/releases/tag/nightly).
 - Download the adaptation script: [adaptation-surya-script.zip](https://github.com/droidian-surya/adaptation-surya-script/releases/download/adaptation/adaptation-surya-script.zip).
 - Download [boot.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/boot.img), [dtbo.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/dtbo.img), [vbmeta.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/images/vbmeta.img).
+- Download [twrp.img](https://github.com/droidian-surya/kernel-xiaomi-surya/releases/download/karna/twrp.img).
 
 ## Surya istallation
 - Flash boot.img: `fastboot flash boot boot.img`.
 - Flash dtbo.img: `fastboot flash dtbo dtbo.img`.
 - Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`.
-- Flash your favorite recovery ( TWRP Recommended ).
+- Flash twrp.img: `fastboot flash recovery twrp.img`.
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
 - Go into sideload mode and sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip: `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip`
@@ -58,7 +60,7 @@
 - Flash boot.img: `fastboot flash boot boot.img`.
 - Flash dtbo.img: `fastboot flash dtbo dtbo.img`.
 - Flash vbmeta.img: `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img`.
-- Flash your favorite recovery ( TWRP Recommended ).
+- Flash twrp.img: `fastboot flash recovery twrp.img`.
 - Format userdata as ext4 from inside the recovery or via fastboot: `fastboot format:ext4 userdata`.
 - Now boot into recovery.
 - Go into sideload mode and sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip: `adb sideload droidian-OFFICIAL-phosh-phone-rootfs-api29-arm64-nightly_XXXXXXXX.zip`
